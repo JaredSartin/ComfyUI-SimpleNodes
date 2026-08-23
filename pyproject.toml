@@ -1,5 +1,5 @@
 [project]
-name = "comfyui-simple-nodes"
+name = "simple-nodes"
 version = "0.1.0"
 description = "Simple Nodes: A set of nodes to simplify some tasks"
 readme = "README.md"
