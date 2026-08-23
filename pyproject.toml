@@ -10,3 +10,8 @@ license = { text = "MIT" }
 [build-system]
 requires = ["setuptools>=61.0", "wheel", "build"]
 build-backend = "setuptools.build_meta"
+
+[tool.comfy]
+PublisherId = "xfennec777" # TODO (fill in Publisher ID from Comfy Registry Website).
+DisplayName = "Simple Nodes" # Display name for the Custom Node. Can be changed later.
+# Icon = "https://example.com/icon.png" # SVG, PNG, JPG or GIF (MAX. 800x400px)
