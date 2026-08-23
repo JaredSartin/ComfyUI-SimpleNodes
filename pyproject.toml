@@ -1,0 +1,12 @@
+[project]
+name = "comfyui-simple-nodes"
+version = "0.0.0"
+description = "Simple Nodes: A set of nodes to simplify some tasks"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [ { name = "Jared Sartin" } ]
+license = { text = "MIT" }
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "build"]
+build-backend = "setuptools.build_meta"
