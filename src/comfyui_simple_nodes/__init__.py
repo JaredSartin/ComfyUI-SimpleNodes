@@ -1,8 +1,16 @@
-"""
-Minimal package entrypoint for ComfyUI Simple Nodes.
-Add your node code under this package.
-"""
+from .simple_tags_node import SimpleTagsNode
+from .resolution_selector import ResolutionSelectorNode
 
-__all__ = ["version"]
+# The master mapping ComfyUI reads
+NODE_CLASS_MAPPINGS = {
+    "SimpleTagsNode": SimpleTagsNode,
+    "ResolutionSelectorNode": ResolutionSelectorNode,
+}
 
-version = "0.0.0"
+# The user-friendly names shown in the UI menu
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "SimpleTagsNode": "Simple Prompt Tags",
+    "ResolutionSelectorNode": "Resolution Selector",
+}
+
+__all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]
